@@ -2,8 +2,8 @@ const immagine=document.getElementById("immagine")
 const tag=document.getElementById("tag")
 const descrizione=document.getElementById("descrizione")
 const nome=document.getElementById("nome")
-const link_immagine = 'http://ddragon.leagueoflegends.com/cdn/img/champion/loading/'
-const link_eroi = 'http://ddragon.leagueoflegends.com/cdn/10.25.1/data/it_IT/champion.json'
+const link_immagine = 'https://ddragon.leagueoflegends.com/cdn/img/champion/loading/'
+const link_eroi = 'https://ddragon.leagueoflegends.com/cdn/10.25.1/data/it_IT/champion.json'
 let eroi = new Array()
 fetch (link_eroi)
 .then (r=>r.json())
